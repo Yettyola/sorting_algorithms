@@ -137,6 +137,5 @@ void sort_deck(deck_node_t **deck)
 		return;
 
 	insertion_sort_deck_kind(deck);
-	insertion_sort_
-deck_value(deck);
+	insertion_sort_deck_value(deck);
 }
