@@ -43,7 +43,6 @@ void shell_sort(int *array, size_t size)
 				j -= gap;
 			}
 		}
-		prin
-t_array(array, size);
+		print_array(array, size);
 	}
 }
